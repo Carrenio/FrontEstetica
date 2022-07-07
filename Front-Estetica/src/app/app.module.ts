@@ -7,6 +7,7 @@ import { PaquetesComponent } from './usuarios/paquetes/paquetes.component';
 import { PaquetesDetallesComponent } from './usuarios/paquetes-detalles/paquetes-detalles.component';
 import { InicioComponent } from './usuarios/inicio/inicio.component';
 import { CitasComponent } from './usuarios/citas/citas.component';
+import { ROUTING } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { CitasComponent } from './usuarios/citas/citas.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ROUTING,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
